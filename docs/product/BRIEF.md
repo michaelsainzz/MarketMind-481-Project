@@ -59,3 +59,13 @@ These block only dependent stories; the offline first milestone can proceed.
 | D7 | Approximate 20-answer sample method, rubric and sufficient sample for calibration metrics | Team | Final evaluation |
 
 Capture decisions when actually resolved; these are not approval gates for unrelated work.
+
+## Development coordination — November 6, 2026
+
+Michael authorizes the PM to use specialized development agents, dependency-aware
+parallel execution and separate cross-checking to develop ideas and deliver
+assigned work. Follow `../ORCHESTRATION.md`. Exploration remains exploration;
+build requests authorize the PM to deliver a coherent ready slice. This changes
+the development workflow, not the accepted product scope or runtime research
+architecture. It does not resolve D1–D7, assign human teammates, start the full
+backlog, or enable paid/unattended execution.

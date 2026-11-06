@@ -45,3 +45,19 @@ relevant local/required CI checks, resolve findings, and merge under that standi
 authorization. Respect branch protections and explicit task exceptions. Preserve
 honest review evidence; this authorization does not turn self-review into an
 independent review or authorize unrelated actions.
+
+## November 6, 2026 — PM-led development orchestration
+
+Michael requested specialized roles, parallel execution and cross-checking so
+he can direct the project through ideas. Authorize the PM to coordinate
+specialized development agents within invoked project sessions. Preserve
+exploration-only intent; build requests permit bounded delivery through the
+existing PR/merge workflow. Use dependency-aware work splits, isolated concurrent
+writers, a separate reviewer and verification of the combined result.
+
+Keep one accountable PM and one owner per task. Use roles as needed rather than
+launching a fixed large team. If review or delegation tools are unavailable,
+report that honestly and leave orchestrated merges review-pending. No provider
+diversity, product success, speedup or autonomous background service is implied.
+The bounded product research workflow and external-action/spending constraints
+remain unchanged. Operational details are in ORCHESTRATION.md.

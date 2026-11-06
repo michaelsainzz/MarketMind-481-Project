@@ -37,3 +37,15 @@ in DEVELOPMENT.md. Record its acceptance criteria and baseline before coding.
 - User has authorized agents to finish assigned repository tasks through merge
   when ready, unless otherwise specified. AGENTS.md and implement-task record
   this default; required checks and branch protections still apply.
+
+## Development orchestration — November 6, 2026
+
+- Added the standing PM-led development delegation workflow in ORCHESTRATION.md
+  and connected shared instructions, PM guidance and delivery evidence.
+- Specialist tasks, isolated parallel writers, independent review and integrated
+  verification are now the documented workflow for assigned PM-led builds.
+- A separate agent reviewed this workflow change; see docs/tasks/PM-002.md for
+  actual checks, findings and publication state. This was workflow review, not
+  a multi-worker product implementation or a native cross-provider smoke test.
+- Application stories remain unimplemented; MM-101 is still next. No paid calls,
+  runtime research agents, scheduler, deployment or experiment were started.
