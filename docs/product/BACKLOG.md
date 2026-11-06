@@ -279,7 +279,7 @@ P0 · **Ready** · Lead: Team · Basis: Repo · Dependencies: none. Recurring pr
 
 Acceptance:
 - For an implementation task, declare criteria before coding; record starting commit, accountable owner, tool/model/settings when visible, interventions, actual checks, unknown costs/timing and outcome in TASK_TEMPLATE format.
-- Use a focused branch and reviewable handoff. A separate reviewer records findings when available; self-review is labeled accordingly. Record failed/blocked/abandoned runs rather than omitting them.
+- Use a focused branch and reviewable handoff. For PM-orchestrated delivery, a separate reviewer records findings and final disposition before merge; unavailable independent review leaves the change review-pending. Self-review is labeled accordingly and cannot satisfy that gate. Record failed/blocked/abandoned runs rather than omitting them.
 - Smoke-test instruction/skill loading in each installed coding tool before claiming native compatibility. Do not infer development speedup without measured comparison evidence.
 
 ### MM-802 — Deliver a reproducible demo and report
@@ -305,7 +305,7 @@ Acceptance:
 
 Sequence is dependency-based, not a calendar promise. MM-301 and MM-701 discovery can start alongside M0 planning; fee/threshold choices must precede MM-402 and fills. A basic UI shell can use fixtures early, but live acceptance requires real dependencies. Revisit whether all of M2 must precede collection if timing is tight; any reduced collection path needs an explicit protocol decision, not a silent dependency bypass.
 
-Next implementation: **MM-101**, matching the existing DEVELOPMENT.md prompt. In parallel planning (without launching agents), resolve API access/budget and experiment calendar. Native tool discovery can be checked when each tool is available.
+Next implementation: **MM-101**, matching the existing DEVELOPMENT.md prompt. The PM may delegate parallel planning for API access/budget and experiment calendar under docs/ORCHESTRATION.md; unresolved access, spending and calendar choices remain explicit. Native tool discovery can be checked when each tool is available.
 
 ## Deferred ideas
 

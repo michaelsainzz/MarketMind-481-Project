@@ -19,3 +19,14 @@
 - Cost / tokens (unknown if unavailable):
 - Final commit / PR:
 - Limitations / next step:
+
+## Orchestration evidence (when delegated)
+
+- Coordinating PM and parent task/story:
+- Specialist roles / agent IDs / actual tool and model (unknown if hidden):
+- Worker briefs: outcome, allowed files, dependencies/interfaces, acceptance, checks:
+- Worker branches/worktrees and returned commits/artifacts:
+- Parallel tasks / sequential dependencies / unavailable capabilities:
+- Integrated revision and acceptance/failure checks:
+- Separate reviewer, reviewed revision, findings and resolution/re-review:
+- Stop/retry decisions and unresolved blockers:

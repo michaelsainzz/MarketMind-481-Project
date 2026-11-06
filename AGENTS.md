@@ -16,7 +16,7 @@ Build MarketMind: AI Market Research for CPSC 481. Read `docs/PROJECT.md` and `d
 - Report what changed, commands actually run, their results, remaining limitations, and the next step. Never imply an unrun check passed.
 - Update `docs/STATUS.md` when a task changes project state. Record nontrivial design decisions in `docs/DECISIONS.md`.
 - Record task evidence using `docs/TASK_TEMPLATE.md` and `docs/EVALUATION.md`. Mark unavailable timing, cost, token, or model data as unknown.
-- Use separate branches/worktrees for concurrent writers and assign nonoverlapping tasks. Delegate only when requested or authorized by the active task. A reviewer should receive the task, diff, and evidence.
+- Standing user authorization: the PM may coordinate specialized development agents and parallel execution for MarketMind idea development and assigned implementation. Follow docs/ORCHESTRATION.md. Preserve discussion-only intent; do not turn every idea into an implementation order. Use separate branches/worktrees for concurrent writers, nonoverlapping ownership, and a separate reviewer with the task, diff, and evidence. If delegation or independent review is unavailable, report the limitation; do not claim orchestration occurred or merge an orchestrated change awaiting review.
 - Do not call the same agent's self-review independent validation.
 
 ## Product constraints

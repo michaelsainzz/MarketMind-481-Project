@@ -87,3 +87,9 @@ agents; do not have GPT, Claude, and Gemini edit the same checkout concurrently.
 - https://code.claude.com/docs/en/skills
 - https://geminicli.com/docs/cli/gemini-md/
 - https://geminicli.com/docs/cli/skills/
+
+## Coordinated development
+
+See `ORCHESTRATION.md` for the standing PM delegation authorization, specialist
+roles, parallel worktree ownership, integration and independent review gates.
+The PM remains accountable for delivery and maintains the shared handoff files.
