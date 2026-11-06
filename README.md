@@ -14,6 +14,11 @@ MarketMind will research Kalshi event contracts, explain evidence and uncertaint
 - [Reusable workflow catalog](docs/SKILLS.md)
 - [Evaluation plan](docs/EVALUATION.md)
 - [Current handoff](docs/STATUS.md)
+- [Product brief and source decisions](docs/product/BRIEF.md)
+- [Proposed epics, stories, and release sequence](docs/product/BACKLOG.md)
+
+For idea development and prioritization, ask your coding agent to use
+`marketmind-product-manager` (see [workflow catalog](docs/SKILLS.md)).
 
 ## Local environment
 
