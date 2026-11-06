@@ -36,3 +36,12 @@ The full prospective evaluation requires 30 days after collection readiness.
 No delivery dates, accepted story assignments, paid-call budgets, or experiment
 parameters are set by this planning change. Resolve those decisions before
 dependent execution, without blocking unrelated offline work.
+
+## Standing authorization — finish repository tasks through merge
+
+User clarified that assigned tasks include merging ready changes unless otherwise
+specified. Commit and push focused changes, open a PR, verify the final diff and
+relevant local/required CI checks, resolve findings, and merge under that standing
+authorization. Respect branch protections and explicit task exceptions. Preserve
+honest review evidence; this authorization does not turn self-review into an
+independent review or authorize unrelated actions.

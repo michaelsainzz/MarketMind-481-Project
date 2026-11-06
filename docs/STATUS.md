@@ -34,3 +34,6 @@ in DEVELOPMENT.md. Record its acceptance criteria and baseline before coding.
 - A prospective 30-day evaluation begins after collection readiness, not at
   project bootstrap. The course deadline and experiment start remain unknown.
 - Planning evidence: docs/tasks/PM-001.md. Product functionality remains absent.
+- User has authorized agents to finish assigned repository tasks through merge
+  when ready, unless otherwise specified. AGENTS.md and implement-task record
+  this default; required checks and branch protections still apply.

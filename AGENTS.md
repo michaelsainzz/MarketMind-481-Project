@@ -9,6 +9,7 @@ Build MarketMind: AI Market Research for CPSC 481. Read `docs/PROJECT.md` and `d
 - Inspect the relevant files and current Git changes before editing; preserve unrelated user work.
 - Establish the requested outcome and acceptance criteria. Make routine reversible choices and keep working; ask only when missing information materially blocks correctness.
 - Use small feature branches and focused diffs. After initial setup, use pull requests for changes to main. Do not force-push or discard others' work.
+- Standing user authorization: complete assigned repository tasks through commit, push, pull request and merge when the change is ready, unless the user specifies otherwise. Verify the final diff and relevant local/required CI checks, resolve actionable findings, and honor branch protections. Do not stop solely to request merge permission again. Report the merged PR and any review limitations; do not call self-review independent approval.
 - Before modifying a subsystem, read relevant project workflow files from `docs/SKILLS.md`.
 - For product ideas, roadmap or backlog work, use the marketmind-product-manager workflow and read docs/product/BRIEF.md and docs/product/BACKLOG.md.
 - Run meaningful checks that exercise changed behavior. Add regression tests for logic changes and failures; avoid tests that only repeat the implementation.
