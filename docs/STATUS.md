@@ -17,3 +17,23 @@
 
 Implement the offline contract model and clearly synthetic fixture described
 in DEVELOPMENT.md. Record its acceptance criteria and baseline before coding.
+
+## Product planning — November 5, 2026
+
+- Reviewed Project Proposal Strategy, Create Proposal Draft, and Set Up Agent
+  Repo chat history against the repository scope and current implementation.
+- Added a reusable repository-local marketmind-product-manager skill, with a
+  generated Claude copy and explicit-read fallback. Native discovery remains
+  unverified; no unattended agent or runtime integration was deployed.
+- Added docs/product/BRIEF.md with source reconciliation and open decisions,
+  and docs/product/BACKLOG.md with 8 proposed epics and 23 implementation,
+  discovery and delivery stories. Acceptance criteria, dependencies, suggested
+  leads and release gates are recorded; these are not sprint commitments.
+- Next implementation is MM-101, the existing offline contract milestone.
+  API access/budgets and experiment calendar/protocol can be refined now.
+- A prospective 30-day evaluation begins after collection readiness, not at
+  project bootstrap. The course deadline and experiment start remain unknown.
+- Planning evidence: docs/tasks/PM-001.md. Product functionality remains absent.
+- User has authorized agents to finish assigned repository tasks through merge
+  when ready, unless otherwise specified. AGENTS.md and implement-task record
+  this default; required checks and branch protections still apply.

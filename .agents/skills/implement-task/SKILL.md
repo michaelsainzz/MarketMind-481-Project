@@ -18,8 +18,11 @@ description: Implement a scoped MarketMind feature or fix with observable accept
    and misleading claims. Run python scripts/check_repo.py from the repo root.
 7. Update STATUS.md and the task record. Capture human interventions, failures,
    usage costs when available, and unresolved limitations.
-8. Prepare a PR with verification evidence and a clear handoff to a reviewer.
-   Do not call self-review independent validation or merge without authorization.
+8. Publish a PR with verification evidence. Follow the standing user authorization
+   in AGENTS.md to merge when the final change and relevant local/required CI
+   checks are ready, unless the active task says otherwise. Honor branch protections
+   and resolve actionable findings. Report review limitations honestly; self-review
+   is not independent validation. Do not request merge permission already granted.
 
 Paths in these steps are relative to the repository root; project documents
 are under docs/. Use docs/TASK_TEMPLATE.md to start a record.
